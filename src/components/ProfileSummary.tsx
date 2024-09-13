@@ -4,28 +4,37 @@ import { Image } from "../utils/Image";
 import SocialIcons from "./SocialIcons";
 
 export const ProfileSummary = () => {
-  return (
-    <Jumbotron>
-      <Container className="profileSummary">
-        <Row>
-          <Col className="profileSummaryPicture" xs="12" md={3}>
-            <Image name="profilePic.png" alt="Oswaldo Diaz's profile picture" />
-          </Col>
-          <Col>
-            <h1 className="display-3">Hello, I'm Oswaldo</h1>
-            <p className="lead">
-              I’m a 8+ years <strong>Software Engineer</strong>, with strong
-              skills in backend development. I define myself as a quick learner,
-              goal-oriented, and team worker. Since the beginning of 2018 I’ve
-              been devoted to learning and working with AWS stack technologies,
-              you can check my certifications below.
-            </p>
-            <div>
-              <SocialIcons />
-            </div>
-          </Col>
-        </Row>
-      </Container>
-    </Jumbotron>
-  );
+    return (
+        <Jumbotron>
+            <Container className="profileSummary">
+                <Row>
+                    <Col className="profileSummaryPicture" xs="12" md={3}>
+                        <Image
+                            name="profilePic.png"
+                            alt="Oswaldo Diaz's profile picture"
+                        />
+                    </Col>
+                    <Col>
+                        <h1 className="display-3">
+                            Hello there, I am Nikita Kuzmin
+                        </h1>
+                        <p className="lead">
+                            I am a <strong> junior ML&DL developer</strong> who
+                            understands classical machine learning and deep
+                            learning algorithms, computer vision. I want to do
+                            research on safe AI and AI tasks for robotics. I
+                            have experience with models for speech and face
+                            recognition. Worked with segmentation of facial
+                            parts. Has been involved in generating audio from
+                            text. Worked on a project for recognizing formulas
+                            in speech.
+                        </p>
+                        <div>
+                            <SocialIcons />
+                        </div>
+                    </Col>
+                </Row>
+            </Container>
+        </Jumbotron>
+    );
 };
