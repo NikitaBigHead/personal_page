@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/personal_page/static/css/main.3af5d224.css",
+    "main.js": "/personal_page/static/js/main.7a72132c.js",
+    "static/media/profilePic.png": "/personal_page/static/media/profilePic.4a9372da4ef1f151d884.png",
+    "static/media/oracleLogo.png": "/personal_page/static/media/oracleLogo.a045b93a727407ff4b6b.png",
+    "static/media/mtuci.png": "/personal_page/static/media/mtuci.be0f4c2f081c9df3135f.png",
+    "static/media/reactstrap.png": "/personal_page/static/media/reactstrap.002b71e4a6d18f0f1899.png",
+    "static/media/moment.png": "/personal_page/static/media/moment.acc9d8ea64015292b88f.png",
+    "static/media/AWS-SysOpAdmin-Associate-2020.png": "/personal_page/static/media/AWS-SysOpAdmin-Associate-2020.ed44f94f474c83fa1a88.png",
+    "static/media/AWS-SolArchitect-Associate-2020.png": "/personal_page/static/media/AWS-SolArchitect-Associate-2020.d8e8ece6324d5f5c6135.png",
+    "static/media/AWS-DevOpsEngineer-Professional-2020.png": "/personal_page/static/media/AWS-DevOpsEngineer-Professional-2020.ad897755e3979520c11a.png",
+    "static/media/airi.png": "/personal_page/static/media/airi.a6235fdd29b93d2d2691.png",
+    "static/media/AWS-Developer-Associate-2020.png": "/personal_page/static/media/AWS-Developer-Associate-2020.bfcbd88c107aa62bbb9f.png",
+    "static/media/typeScript.png": "/personal_page/static/media/typeScript.5415cac28606f3e5240d.png",
+    "static/media/react.png": "/personal_page/static/media/react.ef20e673b9282f8f30fd.png",
+    "index.html": "/personal_page/index.html",
+    "static/media/react.svg": "/personal_page/static/media/react.3a03708e42481565259f.svg",
+    "main.3af5d224.css.map": "/personal_page/static/css/main.3af5d224.css.map",
+    "main.7a72132c.js.map": "/personal_page/static/js/main.7a72132c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3af5d224.css",
+    "static/js/main.7a72132c.js"
+  ]
+}
