@@ -19,7 +19,7 @@ export const ProfileSummary = () => {
                             Hello there, I am Nikita Kuzmin
                         </h1>
                         <p className="lead">
-                            I am a <strong> junior ML&DL developer</strong> who
+                            I am a <strong> intern ML&DL developer</strong> who
                             understands classical machine learning and deep
                             learning algorithms, computer vision. I want to do
                             research on safe AI and AI tasks for robotics. I
@@ -27,7 +27,7 @@ export const ProfileSummary = () => {
                             recognition. Worked with segmentation of facial
                             parts. Has been involved in generating audio from
                             text. Worked on a project for recognizing formulas
-                            in speech.
+                            in speech and visual speech recognition.
                         </p>
                         <div>
                             <SocialIcons />

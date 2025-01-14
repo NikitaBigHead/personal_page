@@ -8,8 +8,9 @@ import { getData } from "../utils/dataExtractor";
 import { Image } from "../utils/Image";
 
 const getDuration = (duration: number) => {
-  const years = Math.round(duration / 12);
+  const years = Math.floor(duration / 12);
   const months = duration > 12 ? duration % 12 : duration;
+
   return (
     (years > 0 ? years + " year" + (years > 1 ? "s" : "") + " and " : "") +
     (months > 0 ? months + " month" + (months > 1 ? "s" : "") : "")
@@ -27,7 +28,7 @@ export const Experience = () => {
             moment.locale("en");
 
             const totalDuration = experience.roles.reduce(function (
-              cnt: any,
+              acum: any,
               role: any
             ) {
               const startDate = moment(role.startDate);
@@ -35,7 +36,9 @@ export const Experience = () => {
                 role.currentJob ? new Date() : new Date(role.endDate)
               );
               const duration = moment.duration(timeEnd.diff(startDate));
-              return Number(cnt) + Number(duration.asMonths().toPrecision(1));
+
+              let out = acum  + Number(duration.asMonths().toPrecision(1));
+              return out
             },
             0);
 
